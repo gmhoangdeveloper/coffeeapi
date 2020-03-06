@@ -1,14 +1,14 @@
 {
     "version": 2,
-    "builds": [{ "src": "app.js", "use": "@now/node-server" }],
+    
     "env": {
         "MONGODB_URI": "mongodb+srv://gmhoang:Hoang@12@cluster0-ryp5w.gcp.mongodb.net/test?retryWrites=true&w=majority"
       },
-    "routes": [
-        {
-          "src": "/posts",
-          "dest": "/app.js",
-          "methods": ["GET"]
-        }
-      ] 
+    // "routes": [
+    //     {
+    //       "src": "/posts",
+    //       "dest": "/app.js",
+    //       "methods": ["GET"]
+    //     }
+    //   ] 
 }
