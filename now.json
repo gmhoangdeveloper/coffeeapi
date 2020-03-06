@@ -7,7 +7,7 @@
     "routes": [
         {
           "src": "/posts",
-          "dest": "/posts.js",
+          "dest": "/app.js",
           "methods": ["GET"]
         }
       ] 
