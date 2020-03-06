@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cros = require('cors')
 require('dotenv/config');
 
-app.use(cors())
+app.use(cros())
 app.use(bodyParser.json());
 // //Middlewares
 // app.use('/post',()=>{
